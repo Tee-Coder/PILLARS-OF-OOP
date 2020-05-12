@@ -1,20 +1,14 @@
-/*
 using System;
-
 namespace inheritance
-
 {
     class Painting
     {
         public string paintingUserName = "Toyin's artistry";
-
-
     public void welcomegreetings()
     {
         Console.WriteLine("Welcome to our world of artistry");
     }
   }
-
   class PaintingDetails: Painting
   {
       public string PaintingName = "Smoke Artistry";
@@ -22,7 +16,6 @@ namespace inheritance
        public string PaintingMedium = "Sketches";
        public string PaintingYear = "1988";
   }
-   
    class Program
    {
        static void Main(string[] args)
@@ -36,7 +29,4 @@ namespace inheritance
 
        }
    }
-
-
 }
-*/
