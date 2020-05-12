@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 
 namespace oop_abstraction
 {
@@ -61,5 +62,5 @@ namespace oop_abstraction
         }
     }
 }
-
+*/
 
