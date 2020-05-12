@@ -1,4 +1,5 @@
-using System;
+
+/*using System;
 namespace polymorphism
 {
     class Program
@@ -54,3 +55,4 @@ namespace polymorphism
         }
     }
 }
+*/
