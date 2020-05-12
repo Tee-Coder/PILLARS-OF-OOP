@@ -1,5 +1,5 @@
 
-/*using System;
+using System;
 namespace polymorphism
 {
     class Program
@@ -29,7 +29,7 @@ namespace polymorphism
         {
             public override void paintingDetails()
             {
-                Console.WriteLine("Medium is pencil sketch");
+                Console.WriteLine("Medium used in archieving painting is pencil sketch");
             }
         }
         class PaintingYear : Painting
@@ -55,4 +55,4 @@ namespace polymorphism
         }
     }
 }
-*/
+
