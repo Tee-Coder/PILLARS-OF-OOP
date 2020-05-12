@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 
 namespace oop_abstraction
 {
@@ -8,50 +8,44 @@ namespace oop_abstraction
         {
             public void myPaintingDetails()
             {
-            Console.WriteLine("This is the painting details");
+                Console.WriteLine("This is the painting details");
             }
         }
-
-        class PaintingName: Painting 
+        class PaintingName : Painting
         {
             public void myPaintingName()
             {
                 Console.WriteLine("The painting name is atmosphere");
             }
-
         }
-
-        class PaintingArtist: Painting 
+        class PaintingArtist : Painting
         {
             public void myPaintingArtist()
             {
                 Console.WriteLine("The painting artist is Toyin");
             }
-
         }
-         class PaintingMedium: Painting 
-          {
+        class PaintingMedium : Painting
+        {
             public void myPaintingMedium()
             {
                 Console.WriteLine("The painting medium is through pencil sketches");
             }
-
         }
-        class PaintingYear: Painting 
+        class PaintingYear : Painting
 
-          {
+        {
             public void myPaintingYear()
             {
                 Console.WriteLine("The painting year is in the year 1766");
             }
-
         }
         static void Main(string[] args)
         {
-            PaintingName myPaintName  = new PaintingName();
-            PaintingArtist myPaintArt  = new PaintingArtist();
-            PaintingMedium myPaintMed  = new PaintingMedium();
-            PaintingYear myPaintYr  = new PaintingYear();
+            PaintingName myPaintName = new PaintingName();
+            PaintingArtist myPaintArt = new PaintingArtist();
+            PaintingMedium myPaintMed = new PaintingMedium();
+            PaintingYear myPaintYr = new PaintingYear();
 
             myPaintName.myPaintingName();
             myPaintName.myPaintingDetails();
@@ -64,9 +58,8 @@ namespace oop_abstraction
 
             myPaintYr.myPaintingYear();
             myPaintYr.myPaintingDetails();
-
         }
     }
 }
-*/
+
 
