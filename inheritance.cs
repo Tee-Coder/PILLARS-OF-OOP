@@ -1,4 +1,4 @@
-/*
+
 using System;
 
 namespace inheritance
@@ -39,4 +39,3 @@ namespace inheritance
 
 
 }
-*/
