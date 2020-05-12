@@ -1,7 +1,7 @@
 ﻿/*
 using System;
 
-namespace oop_abstraction
+namespace abstraction
 {
     class Program
     {
