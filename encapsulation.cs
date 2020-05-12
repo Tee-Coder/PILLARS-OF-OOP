@@ -1,5 +1,4 @@
-/*using System;
-
+using System;
 namespace encapsulation
 {
     class Painting
@@ -18,7 +17,6 @@ namespace encapsulation
                 paintingName = value;
             }
         }
-
           public string myPaintingMedium
           {
 
@@ -39,10 +37,8 @@ namespace encapsulation
                 paintingArtist = value;
             }
            }
-
             public string myPaintingYear
             {
-
             get{
                 return paintingYear;
                 }
@@ -60,13 +56,10 @@ namespace encapsulation
             myPainting.myPaintingArtist = "Taiwo Toyin";
             myPainting.myPaintingMedium = "Pencil sketch";
             myPainting.myPaintingYear = "1799";
-
             Console.WriteLine("The painting name is: " + myPainting.myPaintingName);
             Console.WriteLine("The painting Artist is: " + myPainting.myPaintingArtist);
             Console.WriteLine("The painting name is: " + myPainting.myPaintingMedium);
             Console.WriteLine("The painting name is: " + myPainting.myPaintingYear);
-
         }
     }
     }
-*/
