@@ -1,5 +1,4 @@
-/*using System;
-
+using System;
 namespace polymorphism
 {
     class Program
@@ -11,41 +10,37 @@ namespace polymorphism
                 Console.WriteLine("[This are all the details of our painting]");
             }
         }
-    class PaintingName: Painting
-    {
-        public override void paintingDetails()
+        class PaintingName : Painting
         {
-            Console.WriteLine("Name is atmosphere");
+            public override void paintingDetails()
+            {
+                Console.WriteLine("Name is atmosphere");
+            }
         }
-    }
-
-    class PaintingArtist: Painting
-    {
-        public override void paintingDetails()
+        class PaintingArtist : Painting
         {
-            Console.WriteLine("Artist is Taiwo-Toyin");
+            public override void paintingDetails()
+            {
+                Console.WriteLine("Artist is Taiwo-Toyin");
+            }
         }
-    }
-
-    class PaintingMedium: Painting
-    {
-        public override void paintingDetails()
+        class PaintingMedium : Painting
         {
-            Console.WriteLine("Medium is pencil sketch");
+            public override void paintingDetails()
+            {
+                Console.WriteLine("Medium is pencil sketch");
+            }
         }
-    }
-
-    class PaintingYear: Painting
-    {
-        public override void paintingDetails()
+        class PaintingYear : Painting
         {
-            Console.WriteLine("Year is 1766");
+            public override void paintingDetails()
+            {
+                Console.WriteLine("Year is 1766");
+            }
         }
-    }
-
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Painting myPainting =  new Painting();
+            Painting myPainting = new Painting();
             Painting myPaintingName = new PaintingName();
             Painting myPaintingArtist = new PaintingArtist();
             Painting myPaintingMedium = new PaintingMedium();
@@ -58,7 +53,4 @@ namespace polymorphism
             myPaintingYear.paintingDetails();
         }
     }
-
-    
 }
-*/
